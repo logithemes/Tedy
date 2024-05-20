@@ -1,0 +1,436 @@
+
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 1200px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    .form_main{position: fixed;overflow-y: auto;}
+    .form_main .modal-xl::before{position: fixed;}
+    .main-menu .container{max-width: 100%;}
+    .home_hero_content h1{font-size: 90px;}
+    .overview_content {
+      padding-left: 0;
+  }
+  .overview_contain{padding-top: 0;overflow: hidden;}
+  .employers_graphic{right: 0;}
+  .employers_contain1 .employers_graphic{left: 0;}
+    }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 992px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 992px) {
+        .text {
+            font-size: 40px;
+            line-height: 57px;
+        }
+        .text img {
+            width: 60px;
+            height: 60px;
+        }
+        .card_main_wrap img{margin: 0 auto;}
+        .beyond_benefits .bg1, .beyond_benefits .bg2{        border-bottom: 1px solid #000;}
+       
+        .f_b-2{
+    right: -34px;
+}
+        .f_b-3{
+    left: -15px;
+    top: 43%;
+}
+       
+
+        .ct_footer{        padding-top: 60px;}
+       
+
+        .categories_testimonial_img{margin-top: 30px;height: auto;}
+
+        .categories_list_pg .ct_list_head{        font-size: 50px;
+            line-height: 65px;}
+        .form_left h4{
+    font-size: 17px;
+    line-height: 26px;
+}
+        .form_content{
+    padding-right: 48px;
+}
+        .modal-content-inn h2{
+    font-size: 26px;
+}
+      .them_heading .heading{
+      font-size: 40px;
+  }
+      .img_main_wrap{
+      padding-right: 10px;
+  }
+  
+      .main-menu .navbar{
+      position: fixed;
+      right: -500px;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      clear: both;
+      width: 326px;
+      padding: 35px;
+      background-color: #fff;
+      z-index: 99;
+      transition: all 0.4s ease;
+  }
+      .navbar ul{
+      /* display: block !important; */
+      flex-direction: column;
+  }
+      .navbar ul li:last-child{
+      border-bottom: 0;
+  }
+      .navbar li{
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid #eee;
+      padding-left: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 0;
+  }
+      .navbar li a{}
+      .navbar .logo_mb_view{
+      max-width: 70%;
+  }
+      .navbar ul li:first-child{
+      border-bottom: 0;
+  }
+  .close_btn{
+      position: absolute;
+      \: 0;
+      right: 35px;
+      background-color: #ff0067;
+      width: 25px;
+      height: 25px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      top: 65px;
+  }
+  .close_btn i{
+      color: #fff;
+  }
+  .sidebar_mb_menu{
+      position: absolute;
+      right: 30px;
+      top: 6px;
+      background-color: var(--btn);
+      width: 40px;
+      height: 40px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+  }
+  .sidebar_mb_menu span{
+      color: #fff;
+  }
+  .main-menu .navbar.act{
+      box-shadow: 15px 0 25px rgba(35,35,35,0.09);
+      right: 0;
+  }
+  .nav_button_wrap{display: none !important;}
+  .home_hero_content h1, .categories_list_pg .ct_list_head{
+    font-size: 60px;
+  }
+  .overview_usp{
+    transform: scale(0.8);
+}
+.img_main_wrap .theme_btn_main {
+    margin-top: -62px;
+}
+.categories_showcase_img .is-img7{transform: scale(0.8);}
+.employers_text_wrap{padding-right: 20px;}
+.employers_img{display: flex;justify-content: center;height: 100%;}
+.employers_img img {
+   
+    object-fit: cover;
+    object-position: top;
+}
+.them_heading .para{font-size: 14px;}
+.features_item p{font-size: 14px;}  
+.features_item i{font-size: 15px;width: 35px;height: 35px;}
+.features_item {padding-left: 38px;}
+
+.employers_graphic{bottom: 0;text-align: right;}
+.employers_graphic img {
+  
+    max-width: 70%;
+}
+
+.employers_contain {
+    margin-top: 200px;
+   
+}
+.employers_contain1{margin-top: 0;}
+.employers_contain1 .employers_text_wrap {
+   
+    padding-left: 20px;
+}
+.employers_contain1 .employers_graphic {
+  
+    text-align: left;
+}
+
+.card_main_wrap{text-align: center;    margin-top: 30px;}
+
+.testimonial_quote {
+    
+    padding: 0 20px 0 20px;
+}
+
+.testimonial_quote h3 {
+   
+    font-size: 18px;
+    line-height: 30px;
+}
+.perss_img{text-align: center;}
+.footer_content_wrap .them_heading .heading{letter-spacing: 0;}
+.clip_path_shapes .shape {
+    
+    transform: scale(0.7);
+}
+
+
+    .brand-slider-wrapper{padding-bottom: 50px;}
+
+    .modal-content-inn{padding: 70px 50px 30px 50px;}
+   
+
+    }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 767px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 767px) {
+        .interactive-ctn .container {
+            max-width: 100%;
+            padding: 0 15px;
+        }
+
+        .beyond_benefits .card_main_wrap{
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+        .beyond_benefits .padding_0{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+        .beyond_benefits .container{
+    max-width: 540px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+        .beyond_benefits .border-0{
+    border: 1px solid #000 !important;
+}
+        .featured_benefit{display: none !important;}
+        .categories_testimonial_tittle h2{font-size: 25px;line-height: 35px;}
+        .category_card_box h3{    font-size: 20px;}
+
+        .hero_section .banner {
+            padding-bottom: 50px;
+        }
+
+        .form_main .modal-content {
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form_main .logo {
+            left: auto;
+            text-align: center;
+        }
+
+        .modal-content-inn{padding: 114px 30px 30px 30px;}
+        .form_content, .form_main .modal-xl::before{display: none  !important;}
+        .hero_main{margin-bottom: 30px;}
+        .brand-slider-wrapper {
+            padding-bottom: 30px;
+        }
+
+        .overview_content{text-align: center;}
+        .overview_usp{
+    transform: scale(0.9);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.categories_showcase_img{transform: scale(0.8);}
+.categories_showcase_img .is-img4{display: none;}
+.categories_showcase_img .is-img3 {
+    bottom: -124px;
+    left: -53px;
+}.categories_showcase_img .is-img1 {
+    top: -225px;
+    left: -33px;
+    transform: scale(0.7);
+}
+.categories_showcase_img .is-img6 {
+    right: -56px;
+    top: -203px;
+}
+.categories_showcase_img .is-img2 {display: none;}
+.categories_showcase_img .is-img7 {display: none;}
+.categories_showcase {
+    margin-top: 50px;
+}
+
+.categories_showcase{
+    /* overflow: hidden; */
+}
+
+.categories_showcase_text .them_heading{padding-bottom: 30px;}
+.employers_contain {
+    margin-top: 50px;padding-bottom: 52px;
+}
+
+.categories_showcase_img .is-img8 {
+    right: 0;
+    bottom: -98px;
+}
+
+.employers_text_wrap {
+   
+    margin-top: 40px;
+}
+.them_heading{text-align: center;}
+.employers_contain1{margin-top: 0;}
+.beyond_benefits{padding-bottom: 90px;}
+.testimonials .row{
+    flex-direction: column-reverse;
+    padding: 30px 30px 24px 30px;
+}
+.testimonial_quote{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 36px;
+}
+.beyond_benefits .row_border {
+    border-top: 0;
+    border-bottom: 0;
+    
+}
+.press_contain{padding-top: 80px;}
+.press_contain .them_heading {
+  
+padding-bottom: 30px;
+}
+.footer_contain_mani{padding-top: 50px;}
+
+     
+    }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 576px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 576px) {
+        .categories_testimonial_img{margin-top: 0;}
+
+        .category_card_box{aspect-ratio: auto;}
+      
+       .categories_box_list .col-sm-6{padding-bottom: 30px;}
+
+        .testimonials{
+    padding: 0 10px 0 10px;
+}
+        .clip_path_shapes{
+    opacity: .4;
+}
+        .img_main_wrap{padding-right: 0;}
+        
+        .container{padding-left: 20px;padding-right: 20px;}
+        .footer_contain_mani{        padding-left: 15px;
+            padding-right: 15px;}
+
+            .footer_contain{
+    padding: 20px 0 20px 0;
+}
+            .footer_main{
+    padding: 30px 30px 30px 30px;
+}
+.categories_testimonial_tittle {padding-right: 30px;}
+      
+    }
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 480px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 480px) {
+        .mb_height{}
+        .sidebar_mb_menu{        width: 35px;
+            height: 35px;        right: 16px;}
+            .sidebar_mb_menu span{        font-size: 14px;}
+
+        .g_visual_wrap{height: 95%;}
+        .hero_main {
+         
+margin-bottom: 0;
+         
+padding-top: 70px;
+        }
+        .g_visual_wrap .g_visual_video{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+        .home_hero_content{padding: 0 5px;}
+        .home_hero_content h1{
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0;
+}
+.categories_list_pg .ct_list_head{
+    font-size: 30px;
+    line-height: 46px;
+}
+
+      
+
+        .them_heading .heading {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        .main-menu .container{        padding-left: 6px;
+        }
+    
+    }
+    
+
+
+     
+    /*-------------------------------------------------------*/
+    /* When the browser is 400px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 400px) {
+        
+        .theme_btn .btn_hrf{font-size: 11px;}
+        .theme_btn_main .theme_btn a{padding: 13px 30px 14px 50px;}
+        .categories_showcase_img .is-img3{
+    bottom: -163px;
+    transform: scale(0.8);
+}
+        .categories_showcase_img .is-img8{
+    bottom: -130px;
+}
+    
+    }
+    
